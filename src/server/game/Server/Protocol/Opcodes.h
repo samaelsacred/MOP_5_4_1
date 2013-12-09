@@ -1126,7 +1126,7 @@ enum Opcodes
     SMSG_PET_ADDED                                           = 0x0,
     SMSG_PET_BROKEN                                          = 0x0,
     SMSG_PET_CAST_FAILED                                     = 0x0,
-    SMSG_PET_DISMISS_SOUND                                   = 0x0,
+    SMSG_PET_DISMISS_SOUND                                   = 0x164D,
     SMSG_PET_GUIDS                                           = 0x0,
     SMSG_PET_LEARNED_SPELL                                   = 0x0,
     SMSG_PET_MODE                                            = 0x11A7,
