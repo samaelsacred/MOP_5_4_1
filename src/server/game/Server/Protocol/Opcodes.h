@@ -834,7 +834,7 @@ enum Opcodes
     SMSG_DUEL_COUNTDOWN                                      = 0x0,
     SMSG_DUEL_INBOUNDS                                       = 0x0,
     SMSG_DUEL_OUTOFBOUNDS                                    = 0x0,
-    SMSG_DUEL_REQUESTED                                      = 0x1169,
+    SMSG_DUEL_REQUESTED                                      = 0x0,
     SMSG_DUEL_WINNER                                         = 0x0,
     SMSG_DUMP_RIDE_TICKETS_RESPONSE                          = 0x0,
     SMSG_DURABILITY_DAMAGE_DEATH                             = 0x0,
