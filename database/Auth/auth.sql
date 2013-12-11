@@ -2,7 +2,8 @@
 SQLyog Community v11.22 (32 bit)
 MySQL - 5.6.13 : Database - skya
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -281,14 +282,14 @@ CREATE TABLE `realmlist` (
   `timezone` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `allowedSecurityLevel` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `population` float unsigned NOT NULL DEFAULT '0',
-  `gamebuild` int(10) unsigned NOT NULL DEFAULT '17538',
+  `gamebuild` int(10) unsigned NOT NULL DEFAULT '17658',
   PRIMARY KEY (`id`),
   UNIQUE KEY `idx_name` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Realm System';
 
 /*Data for the table `realmlist` */
 
-insert  into `realmlist`(`id`,`name`,`address`,`localAddress`,`localSubnetMask`,`port`,`icon`,`flag`,`timezone`,`allowedSecurityLevel`,`population`,`gamebuild`) values (1,'Skyfire MoP','127.0.0.1','127.0.0.1','255.255.255.0',8085,0,0,1,0,0,17538);
+insert  into `realmlist`(`id`,`name`,`address`,`localAddress`,`localSubnetMask`,`port`,`icon`,`flag`,`timezone`,`allowedSecurityLevel`,`population`,`gamebuild`) values (1,'Skyfire MoP','127.0.0.1','127.0.0.1','255.255.255.0',8085,0,0,1,0,0,17658);
 
 /*Table structure for table `uptime` */
 
