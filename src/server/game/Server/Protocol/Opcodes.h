@@ -7,7 +7,7 @@
  * Free Software Foundation; either version 2 of the License, or (at your
  * option) any later version.
  *
- * This program is distributed in the hope that it will be useful, but WITHOUT
+ * This program is distributed incha the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
  * more details.
@@ -700,7 +700,7 @@ enum Opcodes
     SMSG_AURA_POINTS_DEPLETED                                = 0x0,
     SMSG_AURA_UPDATE                                         = 0x0,
     SMSG_AURA_UPDATE_ALL                                     = 0x0,
-    SMSG_AUTH_CHALLENGE                                      = 0x0,
+    SMSG_AUTH_CHALLENGE                                      = 0x0C42,
     SMSG_AUTH_RESPONSE                                       = 0x03A8,
     SMSG_AVAILABLE_VOICE_CHANNEL                             = 0x0,
     SMSG_AVERAGE_ITEM_LEVEL_INFORM                           = 0x0,
